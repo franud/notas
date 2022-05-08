@@ -1,0 +1,8 @@
+- No hace falta q un servidor web corra en root
+	- Pero solo se pueden escuchar en los puertos 0-1023 root
+		- Setuid
+- Firewalls para servicios q no están en el exterior
+- Configurar servicios
+	- Contraseñas por defecto, etc.
+- URI
+	- ![[Pasted image 20220419131305.png]]

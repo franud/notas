@@ -1,0 +1,10 @@
+- Los procesos tienen propietario
+	- Los propietarios de los procesos pueden lanzar [[Signals]]
+	- Tambien pueden **reducir** su prioridad en el sheduler del kernel.
+- Un proceso con UID=0, puede cambiar su [[setuid]] y su GID -> Así funcionan los programas de login.
+- Realmente, se tienen 3 distintos UID/GID
+	- Real: Vestigial
+	- Effective: Determinan los permisos
+	- Saved: Parking spot para ID's que no se usan pero que permiten a un programa usar y salir de un modo privilegiado.
+		- Reduce riesgo de mal uso de un proceso.
+- Y en Linux concretamente, también un filesystem UID usado para determinar permisos de acceso a ficheros. -> [[NFS]]

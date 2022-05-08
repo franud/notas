@@ -1,0 +1,1 @@
+URI = scheme ":" ["//" authority] path ["?" query] ["#" fragment]
