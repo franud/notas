@@ -1,0 +1,3 @@
+- La complejidad de scanTokens() de `Lexer` es O(n) siendo n el size del string expression
+- La complejidad de parse() de `Parser` es O(n) siendo n el número de tokens
+- La complejidad de eval() de `TreeResolver` es O(n) siendo n el número de nodos que hay en el AST (Cada nodo se resuelve una sola vez)

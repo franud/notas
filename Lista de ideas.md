@@ -1,0 +1,4 @@
+- [ ] Extensión de wireshark que te permita filtrar por PID en unix  
+- [ ] Hay alguna forma de crear tarjetas de red "virtuales"
+	- Para hacer MAC spoofing?
+- [ ] Tracker de precios y avisos de precios para renfe

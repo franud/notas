@@ -1,0 +1,23 @@
+- [x] Digraph -> AcyclicDigraph
+	- [x] CycleIsAddedException
+- [x] Table
+	- [x] InvalidPosition
+		- [x] NegativeSize
+		- [x] OutOfBounds
+	- [x] Refactorizar un poco método isOutOfBounds por dos 
+		- isNegative
+		- isOutOfBounds 
+- [ ] Sheet
+	- [ ] MaxOfCells -> Sheet (), resize(), insertEmpty[Rows/Columns]At()
+ 		- Para tener máximo de celdas en una hoja
+	- [x] InvalidPosition ->  getCell(), insertEmptyColumnsAt(), getReferencesOfCell(), insertBlock()
+		- [x] NegativeSize
+		- [x] OutOfBounds
+	- [x] SheetIsLessThanOneRow
+	- [x] SheetIsLessThanOneColumn
+	- [x] CyclicReferenceExeption
+- [ ] Document
+	- [ ] InvalidSheetName
+		- [ ] SheetIdentifierAlreadyExists
+		- [ ] SheetDoesNotExist
+		- [ ] ?
