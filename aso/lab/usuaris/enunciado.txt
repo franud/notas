@@ -1,0 +1,45 @@
+Donada la següent situació inicial d'un directori dins del nostre sistema de fitxers:
+rserral@asoserver:/shared$ ls -Rla
+.:
+total 18
+drwxr-xrwx  4 rserral profe   4096 Oct 11 10:59 .
+drwxr-xr-x 12 root    root    4096 Oct 11 10:59 ..
+dr-xrwx--x  2 rserral profe   4096 Oct 11 11:18 d1
+drwxrwsrwt  2 root    aso     4096 Oct 11 11:18 d2
+
+./d1:
+total 8
+dr-xrwx--x 2 rserral profe   4096 Oct 11 11:18 .
+drwxr-xrwx 4 rserral profe   4096 Oct 11 10:59 ..
+-rwx--x-w- 1 root    rserral    6 Oct 11 11:19 f2
+-r--rw-rw- 1 profe   rserral 3451 Oct 11 11:00 f1
+
+./d2:
+total 7
+drwxrwsrwt 2 root    aso     4096 Oct 11 11:18 .
+drwxr-xrwx 4 rserral profe   4096 Oct 11 10:59 ..
+-r--rwxr-- 1 rserral profe      6 Oct 11 11:19 file
+
+aso:~$ umask
+022
+Nota: Per defecte un usuari només pertany al grup que té el mateix nom que ell.
+Nota2: Assumeix que cada pregunta és independent, o sigui que l'efecte de les comandes NO es propaga a les altres preguntes.
+Respon JUSTIFICANT cada resposta a les següents preguntes.
+   1. Indica si funcionaria i perquè la següent comanda:
+      profe@asoserver:/shared$ echo Hola > d1/f2
+
+   2. Indica si funcionaria i perquè la següent comanda:
+      profe@asoserver:/shared$ rm d2/file
+
+   3. Indica si funcionaria i perquè la següent comanda:
+      profe@asoserver:/shared$ mv d1/f1 d1/f2
+
+   4. Quins permisos, propietari i grup tindria un fitxer creat amb aquesta comanda?
+      rserral@asoserver:/shared$ touch d2/fileASO
+
+   5. Indica si funcionaria i perquè la següent comanda:
+      aso@asoserver:/shared$ mv d2 d3
+
+   6. Volem oferir un directori del nostre home: /home/aso/shared_folder a tots els usuaris del grup users, però al mateix temps volem restringir que puguin accedir de forma senzilla al directori /home/aso i als altres subdirectoris que hi pugui haver. Indica la millor manera de po
+der aconseguir això modificant els permisos dels directoris que creguis oportú.
+      Pista: potser et cal canviar els permisos de més d'un directori!

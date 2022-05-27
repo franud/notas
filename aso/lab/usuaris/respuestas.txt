@@ -1,0 +1,18 @@
+usuarios:
+	rserral
+	root
+	profe
+grups:
+	profe
+	root
+	aso
+	rserral
+
+1.profe ->  echo > d1/f2
+
+profe tiene permisos de todo en d1
+profe tiene permisos de escritura en f2
+
+El comando funcionaría ya que:
+	1. El grupo de d1 es profe y profe pertenece al grupo profe, por lo tanto puede actuar libremente en d1.
+	2. Profe está en el campo other en f2, donde hay permisos de escritura, que es lo que está haciendo en este archivo con echo.
