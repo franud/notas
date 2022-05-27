@@ -1,3 +1,4 @@
+# Create backup partition
 1. Crear /backup
 2. Creamos nueva particion con el espacio sobrante y creamos un ext3 fs ahi con solo permisos de root de lectura y escritura
 	1. `mkdir /backups`
@@ -9,3 +10,10 @@
 	7. Mount in read-only mode -> `mount -o remount,ro /dev/usbX /backup`
 	8. Mount in read-write mode -> `mount -o remount,rw /dev/usbX /backup`
 	9. Editar `fstab` -> mirar enlace de [[lab1]] punto 8
+		- `/dev/sda8	/backups	ext3	ro,nouser,noexec	0	2
+`
+# Backups with tar
+- Exclude con -X {{file_filled_with_paths_filenames_to_exclude}}
+- Para hacer incremental hay que primero
+	- `tar cfv nombre.tar /carpetabackup --newer=/archivo`
+	- 

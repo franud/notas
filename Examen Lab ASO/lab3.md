@@ -1,2 +1,6 @@
-https://linuxize.com/post/bash-check-if-file-exists/
-
+- Check if directory/file exists -> https://linuxize.com/post/bash-check-if-file-exists/
+- getops -> https://stackoverflow.com/a/57511532
+	- Usar : si hay argumentos de texto
+	- No usar si no hay
+- PARA COMPARAR VARIABLES CON STRINGS USAR "$NOMBRE_VAR" !!!!!
+- 
