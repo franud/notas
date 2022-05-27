@@ -8,6 +8,7 @@
 # Instalación
 1. Umount usb ya que ubuntu lo monta automaticamente, para ver los puntos de montaje actuales: `findmnt` o `mount`
    - `umount /dev/usb*`
+   - UTIL -> `tldr mount`
 2. Particionar el disco con gdisk para GPT (fdisk en caso de MBR).
    - El disco de EFI debe estar en `/boot/efi` y debe estar formateado en FAT32/vfat y debe tener al menos 512 MB
 3. Crear los filesystems
@@ -34,6 +35,7 @@ done
 ```
 
 8. Editar el `/etc/fstab` para el boot del sistema
+	- https://linuxhint.com/write-edit-etc-fstab/
 9.  Hacer `chroot /linux`
 10. Cambiar cosas del teclado (`dpkg-reconfigure`)
 11. Instalar grub con `grub-install --target=x86_64-efi [device (/dev/sda)]`

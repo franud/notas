@@ -1,0 +1,2 @@
+https://linuxize.com/post/bash-check-if-file-exists/
+

@@ -64,8 +64,4 @@ Solo puede acceder root
 - `chage
 	- Para politica de expiración
 
-
-
-
-
 [[Commands on users and groups]]
