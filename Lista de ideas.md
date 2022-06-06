@@ -2,3 +2,4 @@
 - [ ] Hay alguna forma de crear tarjetas de red "virtuales"
 	- Para hacer MAC spoofing?
 - [ ] Tracker de precios y avisos de precios para renfe
+- [ ] Keybind de i3 para buscar en google/duckduck/etc.
