@@ -19,6 +19,9 @@ inc(d)   +  inc(e)
 
 > La incertez de dos dispositivos es igual a la suma de sus logaritmos
 
+La afirmación anterior se da por la propiedad de los logaritmos:
+$\log_2(a) + \log_2(b) = log_2({ab})$
+
 Si tenemos M símbolos con la misma probabilidad => Cada símbolo tiene P=1/M
 
 #### Reescribimos incerteza:
@@ -28,7 +31,7 @@ $-log_2{(P)}$<=> **Sorpresa**
 ### Entropia
 La entropia es la cantidad de información que se recibe/transmite en el canal.
 
-$H = \sum_{i=1}^N P_{i} \times log_2{(\frac{1}{P_{i}})} = - \sum_{i=1}^N P_{1} \times log_2{P_{i}}$
+$H = \sum_{i=1}^N P_{i} \times log_2{(\frac{1}{P_{i}})} = - \sum_{i=1}^N P_{i} \times log_2{P_{i}}$
 ### Interferencia
 No toda la información puede llegar.
 $R = H(x) - H_{y}(x)$

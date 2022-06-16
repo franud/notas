@@ -1,0 +1,1 @@
+A worm it's a [[Malware]] program that it's purpose is to replicate itself between computers.

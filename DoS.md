@@ -1,0 +1,5 @@
+> A DoS attack is a malicious attempt by a single person or a group of people to cause the victim, site, or node to deny service to its customers
+
+> On the other hand, it is also possible that a lot of malicious hosts coordinate to flood the victim with an abundance of attack packets, so that the attack takes place simultaneously from multiple points. This type of attack is called a _Distributed DoS_, or DDoS attack.
+
+To create this attack network, attackers discover vulnerable sites or hosts on the network. Vulnerable hosts are usually those that are either running no antivirus software or out-of-date antivirus software, or those that have not been properly patched. Vulnerable hosts are then exploited by attackers who use their vulnerability to gain access to these hosts. The next step for the intruder is to install new programs (known as _attack tools_) on the compromised hosts of the attack network. The hosts that are running these attack tools are known as _zombies_, and they can carry out any attack under the control of the attacker. Many zombies together form what we call an _army_.3

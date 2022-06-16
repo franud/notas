@@ -1,0 +1,3 @@
+- Developed in 1961
+- Create a process that finds other processes in memory, end them and loading a **replic of itself** in their place.
+- The game ended when only one program is left.
